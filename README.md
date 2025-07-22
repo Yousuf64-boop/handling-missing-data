@@ -1,15 +1,27 @@
-# Create a project folder and navigate to it
-mkdir handling-missing-data
-cd handling-missing-data
+# Handling Missing Data in Python 🧹📊
 
-# Move the notebook file into this folder
-# (Adjust the path if needed)
-mv /path/to/handling_missing_data.ipynb .
+This project demonstrates various techniques for handling missing data using Python, particularly focusing on the `pandas` library. It walks through different types of missing data scenarios and presents strategies to clean and preprocess data effectively.
 
-# Initialize git and push to GitHub
-git init
-git remote add origin https://github.com/YOUR_USERNAME/handling-missing-data.git
-git add .
-git commit -m "Initial commit: Added notebook on handling missing data"
-git branch -M main
-git push -u origin main
+## 📂 File
+
+- `handling_missing_data.ipynb` – A Jupyter Notebook that covers:
+  - Detecting missing values
+  - Visualizing missing data
+  - Removing missing values
+  - Imputing missing values (mean, median, mode, forward fill, backward fill)
+  - Custom missing data handling techniques
+
+## 🔧 Technologies Used
+
+- Python 3.x
+- pandas
+- numpy
+- matplotlib / seaborn (if used for visualization)
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/handling-missing-data.git
+   cd handling-missing-data
+
